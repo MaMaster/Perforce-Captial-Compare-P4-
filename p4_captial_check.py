@@ -13,7 +13,7 @@ opened = p4.run_opened()
 
 
 #读取P4目录,生成词典
-#p4.run("dirs", '//X3Streams/dev-r6.1/Program/Client/Assets/ResourcesWorkspace/GameObjectRes/Effect/AttackEffect/...')
+#p4.run("dirs", '//Streams/dev-r6.1/Program/Client/Assets/...')
 #depot路径后需要有“...”才会读取后续目录
 
 def Create_dic():
